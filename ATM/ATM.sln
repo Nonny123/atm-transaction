@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMSimulation", "ATMSimulation\ATMSimulation.csproj", "{7A5D2C1B-ED0D-466D-8873-7A6C51E7C9F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMWeb", "ATMWeb\ATMWeb.csproj", "{AEA6F8AC-EB5C-4F34-AAFA-B604C63C3F68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMSimulation.Tests", "ATMSimulation.Tests\ATMSimulation.Tests.csproj", "{E1E86F71-E729-4C29-BC56-66E6EAA0D9DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMWeb.Tests", "ATMWeb.Tests\ATMWeb.Tests.csproj", "{73CA78E8-2C19-4E9B-A2DB-26D054FEFE3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7A5D2C1B-ED0D-466D-8873-7A6C51E7C9F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7A5D2C1B-ED0D-466D-8873-7A6C51E7C9F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7A5D2C1B-ED0D-466D-8873-7A6C51E7C9F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7A5D2C1B-ED0D-466D-8873-7A6C51E7C9F4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E1E86F71-E729-4C29-BC56-66E6EAA0D9DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E1E86F71-E729-4C29-BC56-66E6EAA0D9DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E1E86F71-E729-4C29-BC56-66E6EAA0D9DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E1E86F71-E729-4C29-BC56-66E6EAA0D9DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA6F8AC-EB5C-4F34-AAFA-B604C63C3F68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA6F8AC-EB5C-4F34-AAFA-B604C63C3F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA6F8AC-EB5C-4F34-AAFA-B604C63C3F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA6F8AC-EB5C-4F34-AAFA-B604C63C3F68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73CA78E8-2C19-4E9B-A2DB-26D054FEFE3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73CA78E8-2C19-4E9B-A2DB-26D054FEFE3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73CA78E8-2C19-4E9B-A2DB-26D054FEFE3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73CA78E8-2C19-4E9B-A2DB-26D054FEFE3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

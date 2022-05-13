@@ -14,12 +14,12 @@
         <p>
            Open an account with us
         </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Register</a></p>
+        <p>@Html.ActionLink("Register","Register","Account", null, new {@class = "btn btn-default"})</p>
     </div>
     <div class="col-md-4">
         <h2>Login</h2>
         <p>Access you existing account</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Login</a></p>
+        <p>@Html.ActionLink("Log in", "Login", "Account", null, new { @class = "btn btn-default" })</p>
     </div>
     
 </div>
