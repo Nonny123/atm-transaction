@@ -103,6 +103,5 @@ C:\Users\NONSO\source\repos\atm-transaction\ATM\ATMWeb\bin\Microsoft.Owin.Securi
 C:\Users\NONSO\source\repos\atm-transaction\ATM\ATMWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\NONSO\source\repos\atm-transaction\ATM\ATMWeb\obj\Debug\ATMWeb.csproj.AssemblyReference.cache
 C:\Users\NONSO\source\repos\atm-transaction\ATM\ATMWeb\obj\Debug\ATMWeb.csproj.CoreCompileInputs.cache
-C:\Users\NONSO\source\repos\atm-transaction\ATM\ATMWeb\obj\Debug\ATMWeb.csproj.CopyComplete
 C:\Users\NONSO\source\repos\atm-transaction\ATM\ATMWeb\obj\Debug\ATMWeb.dll
 C:\Users\NONSO\source\repos\atm-transaction\ATM\ATMWeb\obj\Debug\ATMWeb.pdb
