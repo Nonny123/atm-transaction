@@ -105,3 +105,6 @@ C:\Users\NONSO\source\repos\atm-transaction\ATM\ATMWeb\obj\Debug\ATMWeb.csproj.A
 C:\Users\NONSO\source\repos\atm-transaction\ATM\ATMWeb\obj\Debug\ATMWeb.csproj.CoreCompileInputs.cache
 C:\Users\NONSO\source\repos\atm-transaction\ATM\ATMWeb\obj\Debug\ATMWeb.dll
 C:\Users\NONSO\source\repos\atm-transaction\ATM\ATMWeb\obj\Debug\ATMWeb.pdb
+C:\Users\NONSO\source\repos\atm-transaction\ATM\ATMWeb\obj\Debug\ATMWeb.Migrations.InitialCreate.resources
+C:\Users\NONSO\source\repos\atm-transaction\ATM\ATMWeb\obj\Debug\ATMWeb.csproj.GenerateResource.cache
+C:\Users\NONSO\source\repos\atm-transaction\ATM\ATMWeb\obj\Debug\ATMWeb.Migrations.AccountNumberChanges.resources

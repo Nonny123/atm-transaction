@@ -9,6 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using ATMWeb.Models;
+using ATMWeb.Services;
 
 namespace ATMWeb.Controllers
 {
@@ -155,18 +156,9 @@ namespace ATMWeb.Controllers
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
-                    var db = new ApplicationDbContext();
-                    var checkingAccount = new CheckingAccount
-                    {
-                        FirstName = model.FirstName,
-                        LastName = model.LastName,
-                        AccountNumber = "0000123456",
-                        Balance =  0,
-                        ApplicationUserId = user.Id
-                    };
+                    var service = new CheckingAccountService(HttpContext.GetOwinContext().Get<ApplicationDbContext>());
 
-                    db.CheckingAccounts.Add(checkingAccount);
-                    db.SaveChanges();
+                    service.CreateCheckingAccount(model.FirstName, model.LastName, user.Id, 0);
 
                     await SignInManager.SignInAsync(user, isPersistent:false, rememberBrowser:false);
                     
@@ -387,6 +379,10 @@ namespace ATMWeb.Controllers
                     result = await UserManager.AddLoginAsync(user.Id, info.Login);
                     if (result.Succeeded)
                     {
+                        var service = new CheckingAccountService(HttpContext.GetOwinContext().Get<ApplicationDbContext>());
+
+                        service.CreateCheckingAccount("Facebook", "User", user.Id, 500);
+
                         await SignInManager.SignInAsync(user, isPersistent: false, rememberBrowser: false);
                         return RedirectToLocal(returnUrl);
                     }
