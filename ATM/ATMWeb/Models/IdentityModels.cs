@@ -16,6 +16,9 @@ namespace ATMWeb.Models
             // Add custom user claims here
             return userIdentity;
         }
+
+        // custom property
+        public string Pin { get; set; }
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>

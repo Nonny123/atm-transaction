@@ -23,7 +23,7 @@ namespace ATMWeb.Services
                 FirstName = firstName,
                 LastName = lastName,
                 AccountNumber = accountNumber,
-                Balance = 0,
+                Balance = initialBalance,
                 ApplicationUserId = userId
             };
 
