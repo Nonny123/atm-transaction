@@ -32,14 +32,26 @@ namespace ATMWeb.Controllers
         {
             ViewBag.Message = "Your application description page.";
 
-            return View();
+            return View("About");
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Having trouble? Send us a message";
 
             return View();
+        }
+
+        [HttpPost]
+        public ActionResult Contact(string message)
+        {
+            ViewBag.TheMessage = "Thanks, we got your message!";
+            return View();
+        }
+
+        public ActionResult Foo()
+        {
+            return View("About");
         }
 
         public ActionResult Serial(string letterCase)
